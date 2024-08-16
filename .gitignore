@@ -13,6 +13,10 @@
 /[Ss]erver[Dd]ata/
 /[Aa]ssets/[Pp]ackages/
 /[Aa]ssets/[Oo]thers/[Ff]onts/
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

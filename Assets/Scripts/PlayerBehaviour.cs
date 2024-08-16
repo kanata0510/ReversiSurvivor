@@ -10,12 +10,12 @@ public class PlayerBehaviour : MonoBehaviour
 
     [SerializeField] private float moveRate = 1f;
 
-    private Rigidbody2D _rb;
+    private Rigidbody2D m_Rigidbody;
 
     // Start is called before the first frame update
     private void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        m_Rigidbody = GetComponent<Rigidbody2D>();
 
         foreach (var moveInput in moveInputs)
         {
@@ -31,11 +31,11 @@ public class PlayerBehaviour : MonoBehaviour
     private void Move(Vector2 direction)
     {
         Debug.Log(direction);
-        _rb.velocity = direction * moveRate;
+        m_Rigidbody.velocity = direction * moveRate;
     }
     
     private void Stop()
     {
-        _rb.velocity = Vector3.zero;
+        m_Rigidbody.velocity = Vector3.zero;
     }
 }
